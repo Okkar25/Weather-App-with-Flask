@@ -5,20 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Project</title>
     <link rel="stylesheet" href="{{url_for("static",
-    filename="css/style.css")}}" />
+    filename="styles/style.css")}}" />
   </head>
 
   <body>
     <h1>Get Current Weather Conditions</h1>
 
-    <form action="/weather">
-      <input
-        type="text"
-        name="city"
-        id="city"
-        placeholder="Enter a City"
-        required
-      />
+    <form action="/weather" method="POST">
+      <input type="text" name="city" id="city" placeholder="Enter a City" />
 
       <button type="submit">Get Weather</button>
     </form>
