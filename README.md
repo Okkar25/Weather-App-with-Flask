@@ -74,6 +74,11 @@ This is a simple Flask web application that fetches current weather data for a g
 - **Waitress**: Production-grade WSGI server.
 - **HTML/CSS**: Frontend UI.
 
+## Demo Link
+
+https://weather-app-with-flask-q9e5.onrender.com/
+
+
 ## Screenshots
 
 ![weather1](https://github.com/user-attachments/assets/598a49c9-84f4-431e-8e32-87e11b44d294)
